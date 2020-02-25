@@ -1,17 +1,17 @@
 
 /* Calculator itself */
 
-body{
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
+body{
+    background-color: rgba(186, 37, 255, 0.651);
+}
 
 .mainContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: auto;
     
 }
 
@@ -54,8 +54,8 @@ body{
 
 .choicebtns{
 
-    height: 3.5vw;
-    width: 3.5vw;
+    height: 40px;
+    width: 40px;
     padding: 5px;
     margin-left: 15px;
     margin-right: 15px;
@@ -75,8 +75,8 @@ body{
 
 .calculateBtn{
     font-size: 1rem;
-    height: 5vw;
-    width: 7vw;
+    height: 50px;
+    width: 80px;
     padding: 5px;
     margin-top: 30px;
     margin-left: 15px;
