@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class = 'mainContainer'>
+    <div class = 'calcBox' >
+        <div class = 'calcContent'>
+            <h1 class = 'calcTitle'>Tip Calculator</h1>
+            <p class = 'calcText'>Please enter the total of your bill</p>
+            <input id="inputTextBox" class = 'inputTextBox' type="text">
+            <p class = 'calcText'>Please pick a tip percentage</p>
+                <div class='percentages'>
+                    <input class="choicebtns" type="button" onclick = "tipPercent(1)" value="10%">
+                    <input class="choicebtns" type="button" onclick = "tipPercent(2)" value="15%">
+                    <input class="choicebtns" type="button" onclick = "tipPercent(3)" value="20%">
+                </div>
+           <button class="calculateBtn" onClick = "test()">Calculate</button>
+           <p class="resultText" id = 'result'></p>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
