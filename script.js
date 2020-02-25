@@ -12,7 +12,7 @@ function test(){
     
     var result = billAmount * chosenPercent;
 
-    output.innerHTML = 'Tip - $' + result;
+    output.innerHTML = 'Tip - $' + (Math.round(result * 100) / 100).toFixed(2);
     
     
 
